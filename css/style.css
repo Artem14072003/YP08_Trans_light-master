@@ -986,3 +986,251 @@ h6 {
     color: black;
     transition: 0.8s;
 }
+@media (max-width: 1450px) {
+    .header {
+        height: 70px;
+    }
+    .header__logo {
+        width: 133px;
+        height: 53px;
+    }
+    .main {
+        height: 600px;
+    }
+    .main__inner {
+        width: 850px;
+    }
+    .main__inner:before {
+        top: 70px;
+        height: calc(100% - 70px);
+    }
+    .main__content {
+        padding-left: 140px;
+    }
+    .main__content-title {
+        width: 550px;
+        line-height: 60px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .main__content-suptitle {
+        width: 445px;
+        line-height: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .main__content-btn {
+        font-size: 15px;
+        letter-spacing: 0;
+        padding: 12px 30px;
+    }
+    .projects {
+        padding: 120px 0 0 0;
+    }
+    .container {
+        max-width: 900px;
+    }
+    .projects__title {
+        margin-bottom: 50px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 38px;
+        letter-spacing: 0;
+        padding-left: 120px;
+    }
+    .projects .slider__box-img {
+        width: 440px;
+        height: 315px;
+    }
+    .projects .slider .slick-next,
+    .projects .slider .slick-prev {
+        top: -28%;
+        width: 45px;
+        height: 45px;
+    }
+    .projects .slider .slick-next:before {
+        top: 16px;
+        left: 14px;
+    }
+    .projects .slider .slick-next:after {
+        top: 25px;
+        left: 14px;
+    }
+    .projects .slider .slick-prev {
+        right: 54px;
+    }
+    .projects .slider .slick-prev:before {
+        top: 16px;
+        left: 14px;
+    }
+    .projects .slider .slick-prev:after {
+        top: 25px;
+        left: 14px;
+    }
+    .production {
+        padding: 120px 0 0 0;
+    }
+    .production__title {
+        margin-bottom: 50px;
+    }
+    .production__btns {
+        margin-bottom: 40px;
+    }
+    .production__btn {
+        margin: 0 12px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .production__boxes {
+        margin: 0 -10px;
+    }
+    .production__box {
+        padding: 0 10px;
+    }
+    .production__box-content {
+        width: 245px;
+        height: 80px;
+        padding-left: 15px;
+    }
+    .production__box-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .rent {
+        padding: 120px 0 0 0;
+    }
+    .rent__title {
+        margin-bottom: 30px;
+    }
+    .rent__body-text {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 0 45px 0 0;
+    }
+    .rent__slider {
+        padding: 40px 15px 22px 22px;
+    }
+    .rent__box-title {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    .rent__box-content {
+        padding-left: 20px;
+    }
+    .rent__content-title {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .rent__list-item {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .rent .rent__slider .slick-next,
+    .rent .rent__slider .slick-prev {
+        top: -5%;
+        width: 45px;
+        height: 45px;
+    }
+    .rent .rent__slider .slick-next:before {
+        top: 16px;
+        left: 14px;
+    }
+    .rent .rent__slider .slick-next:after {
+        top: 25px;
+        left: 14px;
+    }
+    .rent .rent__slider .slick-prev {
+        right: 54px;
+    }
+    .rent .rent__slider .slick-prev:before {
+        top: 16px;
+        left: 14px;
+    }
+    .rent .rent__slider .slick-prev:after {
+        top: 25px;
+        left: 14px;
+    }
+    .news {
+        padding: 80px 0 0 0;
+    }
+    .news__title {
+        margin-bottom: 50px;
+    }
+    .news__boxes {
+        margin: 0 -20px;
+    }
+    .news__box-mac,
+    .news__box-milos,
+    .news__box-prolight,
+    .news__box-robe {
+        padding: 0 20px;
+    }
+    .news__box-mac {
+        padding: 0 0 0 20px;
+    }
+    .news-title {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .news__milos-title {
+        margin-bottom: 30px;
+    }
+    .news-date {
+        font-size: 12px;
+    }
+    .news__milos-data {
+        top: 7px;
+        right: 30px;
+    }
+    .news-text {
+        font-size: 12px;
+    }
+    .news__milos-text {
+        margin-bottom: 17px;
+    }
+    .news-link {
+        font-size: 12px;
+    }
+    .news__prolight-title {
+        margin-bottom: 15px;
+    }
+    .news__prolight-date {
+        right: 20px;
+    }
+    .news__prolight-text {
+        margin-bottom: 18px;
+    }
+    .news__robe-date {
+        right: 20px;
+    }
+    .footer {
+        padding: 90px 0 0 0;
+    }
+    .footer__header {
+        padding: 30px 0 22px 0;
+    }
+    .footer__header-tel {
+        font-size: 16px;
+    }
+    .footer__header-adress,
+    .footer__header-mail {
+        font-size: 13px;
+    }
+    .footer__body {
+        padding: 21px 0 9px 0;
+    }
+    .footer__body-link {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .footer__bottom {
+        padding: 21px 0;
+    }
+    .footer__bottom-text {
+        font-size: 13px;
+    }
+    .footer__btn-Top {
+        top: -9%;
+    }
+}
